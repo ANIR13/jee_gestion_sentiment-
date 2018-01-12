@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.2//EN" "http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+           <validators>
+    <field name="internaute.nom">
+        <field-validator type="stringlength">
+        <param name="minLength">4</param>
+          <param name="maxLength">10</param>
+            <message>le nom est très court</message>
+        </field-validator>
+    </field>
+    <field name="internaute.prenom">
+        <field-validator type="stringlength">
+        <param name="minLength">4</param>
+          <param name="maxLength">10</param>
+            <message>erreur code postal</message>
+        </field-validator>
+    </field>
+    <field name="internaute.login">
+        <field-validator type="stringlength">
+        <param name="minLength">4</param>
+          <param name="maxLength">10</param>
+            <message>erreur Login</message>
+        </field-validator>
+    </field>
+    <field name="internaute.password">
+        <field-validator type="stringlength">
+        <param name="minLength">6</param>
+          <param name="maxLength">10</param>
+            <message>mot de passe faible</message>
+        </field-validator>
+    </field>
+    
+</validators>
