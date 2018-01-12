@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <h2>bonjour</h2>
+<h2>GI2</h2>
 </body>
 </html>
